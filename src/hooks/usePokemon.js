@@ -43,7 +43,7 @@ export function usePokemon() {
       );
     }
     setFilteredPokemons(filtered);
-  }, [searchTerm, selectedType, pokemons]);
+  }, [searchTerm, selectedType, pokemons,filterType]);
 
   return {
     types,
